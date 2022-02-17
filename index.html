@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>CSS GLass</title>
+</head>
+<body>
+    <section>
+        <div class="menu">
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        tune
+                    </span>
+                    <h3>System</h3>
+                    <p>Display, notifications, apps, power</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        devices
+                    </span>
+                    <h3>Devices</h3>
+                    <p>Bluetooth, printers, mouse</p>
+                </a>
+            </div>
+
+            <div> 
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        language
+                    </span>
+                    <h3>Network &amp; Internet</h3>
+                    <p>Wi-fi, airplane mode, VPN</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                       person
+                    </span>
+                    <h3>Account</h3>
+                    <p>Account, email, sync, family</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        schedule
+                    </span>
+                    <h3>Date &amp; Time</h3>
+                    <p>Time zone, Time format, automatic</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        lock
+                    </span>
+                    <h3>Pravicity</h3>
+                    <p>Location, Passwords, camera</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        sync_alt
+                    </span>
+                    <h3>Update &amp; Security</h3>
+                    <p>System update &amp; recovery</p>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="card">
+                    <!-- icons in description -->
+                    <span class="material-icons outlined">
+                        edit_note
+                    </span>
+                    <h3>Personalization</h3>
+                    <p>Theme, display, options</p>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+    <script src="js/script.js"></script>
+    <!-- adicionando o Vanilla -->
+    <script src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 15,
+            speed: 200,
+            glare: true,
+            "max-glare": 0.3,
+        });
+    </script>
+</body>
+</html>
