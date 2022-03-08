@@ -1,4 +1,4 @@
 // UTILIZANDO O SCROLL REVEAL
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('.menu', {duration: 1000});
+sr.reveal('.card', {duration: 1000});

@@ -98,6 +98,6 @@ section {
 
 /* SCROLL REVEAL */
     /* precisa que os objetos estejam ocultos para que ele possa mostrar */
-.menu {
+.card {
     visibility: hidden;
 }
